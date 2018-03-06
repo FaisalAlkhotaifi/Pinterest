@@ -73,6 +73,7 @@ extension PhotoStreamViewController: UICollectionViewDelegateFlowLayout {
   
 }
 
+
 extension PhotoStreamViewController: PinterestLayoutDelegate{
   func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
     return photos[indexPath.item].image.size.height
